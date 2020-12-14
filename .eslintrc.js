@@ -4,6 +4,7 @@ module.exports = {
 		'es6': true,
 		'node': true
 	},
+	'parser': 'babel-eslint',
 	'extends': 'eslint:recommended',
 	'parserOptions': {
 		'ecmaVersion': 2015,
@@ -25,7 +26,6 @@ module.exports = {
 		'no-trailing-spaces': 1,
 		'camelcase': 2,
 		'comma-dangle': [2, 'never'],
-		'consistent-this': [2, 'that'],
-		'parser': 'babel-eslint'
+		'consistent-this': [2, 'that']
 	}
 }
